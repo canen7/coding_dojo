@@ -6,12 +6,21 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="Third css exercise coding dojo">
 	<link rel="stylesheet" type="text/css" href="css_ppc_lubricants.css">
+	<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('h4').click(function(){
+				alert('hello, yo this is my first use of jquery');
+			})
+		});
+	</script>
 </head>
 
 <body>
 	<div id="header">
-		<img id="logo_phone" src="logo_phone_ppc.png">
+		<img id="logo_phone" src="logo_phone_ppc.png" alt="sorry, no pic!">
 		<ul id="nav_bar">
+			<li></li>
 			<li>HOME</li>
 			<li>MARKET SEGMENTS</li>
 			<li>SERVICES</li>
@@ -21,14 +30,57 @@
 			<li>MARKET INFORMATION</li>
 		</ul>
 	</div>
+
 	<div id="container">
-		<img src="">
-		<div id="header">
+		<img id="main_pic" src="building_ppc.png" alt="sorry, no pic!">
+		<div class="box1">
+			<h1>ABOUT PPC LUBRICANTS</h1>
+			<h2>A Heritage of Specializing in Lubricants</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		<div id="header">
-		</div>
+		<img id="mini_logo" src="mini_logo.png" alt="sorry, no pic!">
+		<h4 id="beside_mini_logo">PPC now has Bulk Delivery/Squirt Fill capabilites for DEF</h4>
+		<div class="box2_container">
+			<div class="box2">
+				<h1>AUTOMOTIVE</h1>
+				<img class="small_pic" src="automotive.png" alt="sorry, no pic!">
+				<p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid</p>
+				<button>READ MORE...</button>
+			</div>
+			<div class="box2">
+				<h1>COMMERCIAL</h1>
+				<img class="small_pic" src="commercial.png" alt="sorry, no pic!">
+				<p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid</p>
+				<button>READ MORE...</button>
+			</div>
+			<div class="box2">
+				<h1>INDUSTRIAL</h1>
+				<img class="small_pic" src="industrial.png" alt="sorry, no pic!">
+				<p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid</p>
+				<button>READ MORE...</button>
+			</div>
+			<div class="box2">
+				<h1>DIESEL EXHAUST FLUID</h1>
+				<img class="small_pic" src="diesel_exhaust_fluid.png" alt="sorry, no pic!">
+				<p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid</p>
+				<button>READ MORE...</button>
+			</div>
+		</div>	
 	</div>
 	
+
+
 
 </body>
 </html>
